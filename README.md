@@ -188,9 +188,10 @@ If you identify risks (false positives, bias surfaces), please open an issue lab
 
 ```mermaid
 timeline
-  Q3 2025 : Core pipeline hardening : Configurable policies : Model evaluation harness
-  Q4 2025 : Offline inference mode : Timeline visualisation : STIX export
-  Q1 2026 : Multi-language expansion : Advanced clustering : RBAC productionisation
+  15 SEP 2025 : Project setup : Requirements Definition : Backend Frame : UX Wireframes
+  16 SEP 2025 : Backend Enhancements : Security Enhancements : UX/UI Build
+  17 SEP 2025 : Multi-language expansion : Advanced clustering : RBAC productionisation
+  22 SEP 2025 : Project video
 ```
 
 ---
