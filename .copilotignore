@@ -1,0 +1,103 @@
+# GitHub Copilot Ignore File for Chat Detective
+# Exclude sensitive files and directories from Copilot analysis
+
+# Secrets and Configuration
+**/.env*
+**/config/secrets.*
+**/secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+**/*secret*
+**/*password*
+**/*credential*
+
+# Azure Specific
+**/azure-pipelines-variables.yml
+**/arm-template-parameters.json
+**/bicep-parameters.json
+**/.azure/
+
+# Database and Data
+**/migrations/
+**/*.sql
+**/*.db
+**/*.sqlite*
+**/dumps/
+**/backups/
+**/sample-data/
+**/test-data/
+**/transcripts/
+**/evidence/
+
+# Logs and Monitoring
+**/logs/
+**/*.log
+**/audit-logs/
+**/security-logs/
+**/trace-logs/
+
+# Testing Sensitive Data
+**/test-fixtures/sensitive/
+**/test-data/real/
+**/mock-data/personal/
+**/e2e-test-data/
+
+# Documentation with Sensitive Info
+**/security-docs/
+**/compliance-docs/
+**/runbooks/production/
+**/incident-reports/
+
+# Build Artifacts
+**/dist/
+**/build/
+**/.next/
+**/coverage/
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+
+# IDE and System Files
+**/.vscode/settings.json
+**/.idea/
+**/*.swp
+**/*.swo
+**/Desktop.ini
+**/Thumbs.db
+**/.DS_Store
+
+# Temporary and Cache Files
+**/tmp/
+**/temp/
+**/.cache/
+**/.pytest_cache/
+**/.tox/
+
+# Docker and Container Files with Secrets
+**/docker-compose.override.yml
+**/docker-compose.prod.yml
+**/Dockerfile.prod
+
+# Law Enforcement Specific
+**/case-files/
+**/investigation-data/
+**/evidence-chain/
+**/witness-data/
+**/classified/
+**/restricted/
+
+# AI/ML Models and Training Data
+**/models/
+**/training-data/
+**/model-artifacts/
+**/*.pkl
+**/*.joblib
+**/*.h5
+**/*.onnx
+
+# Third-party Libraries (reduce noise)
+**/vendor/
+**/third-party/
+**/external/

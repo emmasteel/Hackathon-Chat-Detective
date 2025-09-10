@@ -137,3 +137,103 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# FastAPI specific
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Azure
+.azure/
+*.azureauth
+
+# Security and secrets
+*.key
+*.pem
+*.p12
+*.pfx
+config/secrets.*
+secrets/
+.secrets/
+
+# Law enforcement sensitive data
+case-files/
+investigation-data/
+evidence-chain/
+witness-data/
+transcripts/
+classified/
+restricted/
+
+# AI/ML models and data
+models/
+training-data/
+model-artifacts/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
