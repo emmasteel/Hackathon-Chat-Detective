@@ -8,9 +8,8 @@
 
 ### Backend
 - **Python 3.11+** with **FastAPI** for high-performance async APIs
-- **Pydantic** for data validation and serialisation
-- **SQLAlchemy** with async support for database operations
-- **Azure Cognitive Services** for AI/ML capabilities
+- **Azure Functions** for hosting **FastAPI**
+- **Azure AI Services** for AI capabilities
 - **Azure Key Vault** for secrets management
 
 ### Frontend
@@ -23,7 +22,7 @@
 - **Azure Container Apps** for serverless deployment
 - **Azure Database for PostgreSQL** with encryption at rest
 - **Azure Application Insights** for monitoring and audit trails
-- **Azure AD B2C** for identity and access management
+- **Azure Entra ID** for identity and access management
 
 ## Core Principles
 
@@ -111,13 +110,13 @@ class TranscriptAnalysisRequest(BaseModel):
         return sanitise_sensitive_content(v)
 ```
 
-## AI/ML Best Practices
+## AI Best Practices
 
 ### Model Integration
 - **Model Versioning**: Track and version ML models properly
 - **A/B Testing**: Support gradual rollout of model improvements
 - **Fallback Mechanisms**: Graceful degradation when AI services fail
-- **Bias Monitoring**: Regular assessment of model bias and fairness
+- **Bias Monitoring**: Regular assessment of model and prompt bias and fairness
 
 ### Data Processing
 - **Streaming Processing**: Handle large chat transcripts efficiently
